@@ -26,9 +26,9 @@ const Footer = ({ className, ...rest }) => {
                  <a class="font-size-5 d-block text-white mb-0" href="/#">1-213-306-9504</a></div>
                  <div class=""><ul class="d-flex align-items-center list-unstyled mb-0">
                   
-                       <li><a class="pl-5 text-white gr-hover-text-dodger-blue-1 font-size-5 px-3" href="https://github.com/n111672" target="_blank">
+                       <li><a class="pl-5 text-white gr-hover-text-dodger-blue-1 font-size-5 px-3" href="https://github.com/n111672" target="_blank" rel="noreferrer">
                          <i class="fab fa-github"></i></a></li>
-                         <li><a class="pl-5 text-white gr-hover-text-dodger-blue-1 font-size-5 px-3" href="https://www.linkedin.com/in/anthony-morlett-47471039/" target="_blank">
+                         <li><a class="pl-5 text-white gr-hover-text-dodger-blue-1 font-size-5 px-3" href="https://www.linkedin.com/in/anthony-morlett-47471039/" target="_blank" rel="noreferrer">
                            <i class="fab fa-linkedin"></i>
                            </a></li></ul>
                            </div>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "gatsby";
+
 
 const GlobalContext = React.createContext();
 
