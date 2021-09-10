@@ -10,8 +10,8 @@ export const menuItems = [
            
          },
          {
-           name: "Profilo",
-           label: "Profilo",
+           name: "Portfolio",
+           label: "Portfolio",
            items: [
              { name: "Thomas", label: "Thomas Jane" },
              {
