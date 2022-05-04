@@ -54,7 +54,7 @@ const Menu = () => {
                                       >
                                         {itemInner.isExternal ? (
                                           <a
-                                            href={`${itemInner.name}`}
+                                            href={`/#${itemInner.name}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                           >
@@ -74,7 +74,7 @@ const Menu = () => {
                               <li className="drop-menu-item">
                                 {subItem.isExternal ? (
                                   <a
-                                    href={`${subItem.name}`}
+                                    href={`/#${subItem.name}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                   >
@@ -97,7 +97,7 @@ const Menu = () => {
                     {isExternal ? (
                       <a
                         className="nav-link"
-                        href={`/#${name}`}
+                        href={`${name}`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
