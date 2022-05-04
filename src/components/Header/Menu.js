@@ -54,7 +54,7 @@ const Menu = () => {
                                       >
                                         {itemInner.isExternal ? (
                                           <a
-                                            href={`/#${itemInner.name}`}
+                                            href={`${itemInner.name}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                           >
