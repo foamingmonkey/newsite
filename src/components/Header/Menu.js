@@ -74,7 +74,7 @@ const Menu = () => {
                               <li className="drop-menu-item">
                                 {subItem.isExternal ? (
                                   <a
-                                    href={`/#${subItem.name}`}
+                                    href={`${subItem.name}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                   >
