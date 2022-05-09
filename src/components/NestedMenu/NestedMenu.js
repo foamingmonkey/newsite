@@ -108,7 +108,7 @@ const MenuItem = ({
             </a>
           ) : (
             <Link
-              to={`/${name}`}
+              to={`/#${name}`}
               onClick={() => {
                 if (gContext.visibleOffCanvas) {
                   gContext.toggleOffCanvas();
@@ -145,7 +145,7 @@ const NestedMenu = () => {
       <ListGroup variant="flush">
         {menuItems.map((menuItem, index) => (
           <MenuItem
-            key={`${menuItem.name}${index}`}
+            key={`/#${menuItem.name}${index}`}
             depthStep={20}
             depth={0}
             {...menuItem}
