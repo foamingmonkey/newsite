@@ -14,18 +14,8 @@ const Footer = ({ className, ...rest }) => {
                   <div class="col-sm-4 col-xs-8">
                     <div class="mb-10 mb-lg-0 mr-xl-12">
                       <div class="mt-7">
-                        <a
-                          class="font-size-5 d-block text-white mb-0"
-                          href="/#"
-                        >
-                          anthonymorlett@gmail.com
-                        </a>
-                        <a
-                          class="font-size-5 d-block text-white mb-0"
-                          href="/#"
-                        >
-                          1-213-306-9504
-                        </a>
+                       
+                      
                       </div>
                       <div class="">
                         <ul class="d-flex align-items-center list-unstyled mb-0">
@@ -53,21 +43,7 @@ const Footer = ({ className, ...rest }) => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 col-xs-8">
-                    <div
-                      className="mt-12"
-                      data-aos="fade-up"
-                      data-aos-delay={900}
-                    >
-                      <Link
-                        to="https://docs.google.com/document/d/1hlnVEf9AyHZ4a9_HPxRDuWzpqtdke_MN1MIfM0acLYU/edit?usp=sharing"
-                        className="btn btn-sunset btn-xl h-55 rounded-5"
-                        target="_blank"
-                      >
-                        Resume
-                      </Link>
-                    </div>
-                  </div>
+               
 
                   <div
                     className="mt-12"
