@@ -13,9 +13,7 @@ const Footer = ({ className, ...rest }) => {
                 <div className="row">
                   <div class="col-sm-4 col-xs-8">
                     <div class="mb-10 mb-lg-0 mr-xl-12">
-                      <div class="mt-7">
-                       
-                      
+                      <div class="mt-7">  
                       </div>
                       <div class="">
                         <ul class="d-flex align-items-center list-unstyled mb-0">
@@ -43,8 +41,6 @@ const Footer = ({ className, ...rest }) => {
                       </div>
                     </div>
                   </div>
-               
-
                   <div
                     className="mt-12"
                     data-aos="fade-up"
